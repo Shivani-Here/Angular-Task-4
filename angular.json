@@ -24,10 +24,15 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles":  [
+              "node_modules/font-awesome/css/font-awesome.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5751c7d8-8844-4c2d-a8f8-bdbb16d4100c"
   }
 }
